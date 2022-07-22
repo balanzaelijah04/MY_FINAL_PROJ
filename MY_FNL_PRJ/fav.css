@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+body{
+    background-color: #222222;
+}
+
+.header{
+    width: auto;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+    box-shadow: 0px 0px 5px green;
+}
+.header .inner-header{
+    width: auto;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}    
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+    margin-left: 200px;
+    
+
+    
+}
+.logo-container h1{
+
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo-container span:hover{
+    color: green;
+}
+
+
+
+.logo-container span{
+    font-weight: 800;
+    transition: .3s ease-in-out;
+}
+.navigation{
+    float: right;
+    height: 100%;
+}
+.navigation a{
+    position: relative;
+    left: -200px;
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;    
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    
+}
+
+
+.container{
+    
+    position: relative;
+    width: auto;
+    height: 550px;
+    margin: 30px 10px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+
+}
+.container .box{
+
+    margin: 10px;
+    float: left;
+    width: 400px;
+    height: 250px;
+    background-color: #101010;
+    border-radius: 20px;
+    box-shadow: green  3px 3px 0px 3px;
+    transition: .5s ease-in-out;
+
+}
+
+.container .box:hover{
+    box-shadow: white -10px -10px 0px -5px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+img{
+    position: relative;
+    width: 100px;
+    height: 90px;
+
+    left: 38%;
+    
+
+}
+
+.info{
+    margin: 15px;
+    margin-top: -30px;
+    color: white;
+}
+.awit{
+    position: relative;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 25px;
+    top: -20px;
+    text-align: center;
+
+    margin: 10px;
+    transition: .3s ease-in-out;
+    
+}
+h3:hover{
+    color: green;
+}
+
+.btn{
+    top: -5px;
+    text-align: center;
+    position: relative;
+    left: 160px;
+    background-color: green;
+    width: 100px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+.btn a{
+    padding: 5px;
+    width: 100px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgba(0, 128, 0, 0.37);
+ }
+
